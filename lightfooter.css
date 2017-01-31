@@ -1,0 +1,46 @@
+
+
+footer .row {
+  display: flex;
+  align-items: center;
+}
+
+footer {
+  font-size: 10px;
+  color: white;
+  padding-top: 30px;
+  padding-bottom: 10px;
+}
+
+footer .col-sm-8 {
+  display: flex;
+  justify-content: flex-end;
+}
+
+footer ul {
+  list-style: none;
+  right: -25px;
+}
+
+footer li img {
+  width: 20px;
+  height: 20px;
+}
+
+#footercopy {
+  font-size: 10px;
+}
+
+#accofooter {
+  margin-top: 50px;
+}
+
+#indexfooter {
+  font-size: 12px;
+  position: fixed;
+  bottom: 0;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+}

@@ -1,0 +1,56 @@
+<div class="menu">
+
+    <!-- Menu -->
+    <ul id="mainul">
+        <li id="point"><a href="/index.html">home</a></li>
+        <li id="point9"><a href="#">about</a></li>
+
+        <div class="menu5">
+            <ul id="secondul">
+                <li><a href="/about.html">MUN of Malmö</a> </li>
+                <li id="menuborder"><a id="external" data-href="http://www.malmotown.com/en/">Malmö</a></li>
+            </ul>
+        </div>
+
+        <div id="point8">
+            <li id="point1"><a href="#">conference 2017</a></li>
+            <div class="menu2">
+                <ul id="secondul">
+                    <li><a href="/conference.html">Committees</a></li>
+                    <li><a href="/accommodation.html">Accommodation</a></li>
+                    <li id="menuborder"><a href="/info.html">Conference Info</a></li>
+                </ul>
+            </div>
+            <div id="point2">
+                <li id="point3"><a href="/the_team.html">the team</a></li>
+                <div id="point4">
+                    <div id="point7">
+                        <li id="point5"><a href="#">get our web app!</a></li>
+                        <div class="menu4">
+                            <ul id="secondul">
+                                <li><a href="/web_app_ios.html">iOS</a> </li>
+                                <li id="menuborder"><a href="/web_app_android.html">Android</a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div id="point6">
+                        <li><a href="/sponsors.html">sponsors</a></li>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </ul>
+</div>
+
+<script>
+    document.getElementById("external").addEventListener("click", function (evt) {
+        var a = document.createElement('a');
+        a.setAttribute("href", this.getAttribute("data-href"));
+        a.setAttribute("target", "_blank");
+
+        var dispatch = document.createEvent("HTMLEvents");
+        dispatch.initEvent("click", true, true);
+        a.dispatchEvent(dispatch);
+    }, false);
+</script>

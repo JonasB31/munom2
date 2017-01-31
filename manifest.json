@@ -1,0 +1,40 @@
+{
+    "dir": "ltr",
+    "name": "MUN of Malmö",
+
+    "icons": [{
+        "src": "http://www.munofmalmo.org/iconsweb/Newest_icon_(background)/android/mipmap-xxhdpi/ic_launcher.png",
+        "sizes": "144x144",
+        "type": "image/png"
+    }, {
+        "src": "http://www.munofmalmo.org/iconsweb/Newest_icon_(background)/ios/AppIcon.appiconset/Icon-App-76x76@1x.png",
+        "sizes": "76x76",
+        "type": "image/png"
+    }, {
+        "src": "http://www.munofmalmo.org/iconsweb/Newest_icon_(background)/ios/AppIcon.appiconset/Icon-App-60x60@2x.png",
+        "sizes": "120x120",
+        "type": "image/png"
+    }, {
+        "src": "http://www.munofmalmo.org/iconsweb/Newest_icon_(background)/ios/AppIcon.appiconset/Icon-App-76x76@2x.png",
+        "sizes": "152x152",
+        "type": "image/png"
+    }, {
+        "src": "http://www.munofmalmo.org/iconsweb/Newest_icon_(background)/ios/AppIcon.appiconset/Icon-App-60x60@3x.png",
+        "sizes": "180x180",
+        "type": "image/png"
+    }, {
+        "src": "http://www.munofmalmo.org/apple-touch-icon.png",
+        "sizes": "any",
+        "type": "image/png"
+    }],
+
+    "short_name": "MUN of Malmö",
+    "start_url": "http://www.munofmalmo.org",
+    "display": "standalone",
+    "orientation": "portrait",
+    "background_color": "white",
+    "description": "Hooray for MUN in Malmö!",
+    "lang": "en-UK",
+    "scope": "http://www.munofmalmo.org/",
+    "theme_color": "black"
+}
